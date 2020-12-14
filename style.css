@@ -1,0 +1,205 @@
+body{
+    display: flex;
+
+    padding: 0;
+    margin: 0;
+
+    margin-left: 10em;
+
+    background-color: #0D061D;
+    color: #FAFAFA;
+}
+
+.banner_principal{
+    height: auto;
+    width: 700px;
+
+    margin-top: 100px;
+}
+
+span{
+    color: #FFD400;
+}
+
+.banner_title{
+    font-size: 38px;
+
+    margin-bottom: 20px;
+
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 900;
+}
+
+.banner_info{
+    font-size: 18px;
+
+    margin-bottom: 20px;
+
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: bold;
+
+}
+
+.banner_info_more,
+.banner_local{
+    font-size: 16px;
+
+    margin-bottom: 20px;
+
+    font-family: 'Source Code Pro', monospace;
+}
+
+.banner_local{
+    display: inline-block;
+    padding: 5px;
+    box-shadow: #FFD400 4px 4px;
+    background-color: #FAFAFA;
+    border: 1px solid black;
+
+    color: black;
+}
+
+.flex{
+    display: flex;
+    padding: 0px;
+}
+
+.flex a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+.flex li{
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.flex li:first-child{
+    margin-left: 0px;
+}
+
+.flex li i:hover{
+    color: #FFD400;
+}
+
+.banner_contact ul li{
+    font-size: 16px;
+
+    margin-bottom: 40px;
+
+    font-family: 'Source Code Pro', monospace;
+}
+
+.divisor{
+    color: #666666;
+    
+    font-size: 22px;
+}
+
+.divisor:last-child{
+    margin-top: Calc(40px + 16px);
+    margin-bottom: 56px;
+}
+
+.projects_title{
+    color: #FAFAFA;
+
+    margin-top: Calc(40px + 16px);
+
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+
+    text-transform: uppercase;
+}
+
+.personal_project{
+    margin-top: 30px;
+
+    border: 1px solid #FAFAFA;
+
+    padding: 30px;
+
+    box-shadow: #FFD400 4px 4px;
+}
+
+.personal_project:last-child{
+    margin-bottom: 60px;
+}
+
+.project_title{
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFD400;
+
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.project_title a{
+    margin-left: 5px;
+
+    color: #FFD400;
+    text-decoration: none;
+}
+
+.project_info{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+
+    margin-bottom: 20px;
+}
+
+.project_data{
+    font-family: 'Source Code Pro', monospace;
+}
+
+@media (max-width:840px){
+    body{
+        margin-left: 0.5em;
+    }
+    .banner_principal{
+        margin-top: 50px;
+    }
+    .banner_title{
+        font-size: 32px;
+    }
+    .banner_info_more{
+       font-size: 14px;
+    }
+    .personal_project{
+        padding: 20px;
+
+        width: 290px;
+    }
+}
+
+@media (max-width:1024px){
+    body{
+        margin-left: 2em;
+    }
+    .banner_principal{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:736px){
+    body{
+        margin-left: 0.5em;
+    }
+}
+
+@media (max-width:823px){
+    body{
+        margin-left: 0.5em;
+    }
+}
+
+/*  
+    Fontes usadas durante o código.
+    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+*/
